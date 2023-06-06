@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30546862A250977009C5A5D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30546852A250977009C5A5D /* SettingsView.swift */; };
+		B30546882A2509B4009C5A5D /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30546872A2509B4009C5A5D /* Emojis.swift */; };
 		B3057CF129F7B807002FA945 /* AccessibilityTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3057CF029F7B807002FA945 /* AccessibilityTestApp.swift */; };
 		B3057CF329F7B807002FA945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3057CF229F7B807002FA945 /* ContentView.swift */; };
 		B3057CF529F7B808002FA945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3057CF429F7B808002FA945 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B30546852A250977009C5A5D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B30546872A2509B4009C5A5D /* Emojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
 		B3057CED29F7B807002FA945 /* AccessibilityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibilityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3057CF029F7B807002FA945 /* AccessibilityTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTestApp.swift; sourceTree = "<group>"; };
 		B3057CF229F7B807002FA945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				B3057CF029F7B807002FA945 /* AccessibilityTestApp.swift */,
 				B3057CF229F7B807002FA945 /* ContentView.swift */,
+				B30546872A2509B4009C5A5D /* Emojis.swift */,
+				B30546852A250977009C5A5D /* SettingsView.swift */,
 				B3057CF429F7B808002FA945 /* Assets.xcassets */,
 				B3057CF629F7B808002FA945 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3057CF329F7B807002FA945 /* ContentView.swift in Sources */,
+				B30546862A250977009C5A5D /* SettingsView.swift in Sources */,
+				B30546882A2509B4009C5A5D /* Emojis.swift in Sources */,
 				B3057CF129F7B807002FA945 /* AccessibilityTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,11 +273,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AccessibilityTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DWMMAL3UX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Non-Verbal Speech Panel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,12 +288,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mrbilby.AccessibilityTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,11 +306,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AccessibilityTest/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DWMMAL3UX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Non-Verbal Speech Panel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,12 +321,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mrbilby.AccessibilityTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
